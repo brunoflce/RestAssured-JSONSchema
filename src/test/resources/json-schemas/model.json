@@ -16,170 +16,33 @@
     },
     "data": {
       "type": "array",
-      "items": [
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "email": {
-              "type": "string"
-            },
-            "first_name": {
-              "type": "string"
-            },
-            "last_name": {
-              "type": "string"
-            },
-            "avatar": {
-              "type": "string"
-            }
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
           },
-          "required": [
-            "id",
-            "email",
-            "first_name",
-            "last_name",
-            "avatar"
-          ]
+          "email": {
+            "type": "string"
+          },
+          "first_name": {
+            "type": "string"
+          },
+          "last_name": {
+            "type": "string"
+          },
+          "avatar": {
+            "type": "string"
+          }
         },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "email": {
-              "type": "string"
-            },
-            "first_name": {
-              "type": "string"
-            },
-            "last_name": {
-              "type": "string"
-            },
-            "avatar": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "email",
-            "first_name",
-            "last_name",
-            "avatar"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "email": {
-              "type": "string"
-            },
-            "first_name": {
-              "type": "string"
-            },
-            "last_name": {
-              "type": "string"
-            },
-            "avatar": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "email",
-            "first_name",
-            "last_name",
-            "avatar"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "email": {
-              "type": "string"
-            },
-            "first_name": {
-              "type": "string"
-            },
-            "last_name": {
-              "type": "string"
-            },
-            "avatar": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "email",
-            "first_name",
-            "last_name",
-            "avatar"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "email": {
-              "type": "string"
-            },
-            "first_name": {
-              "type": "string"
-            },
-            "last_name": {
-              "type": "string"
-            },
-            "avatar": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "email",
-            "first_name",
-            "last_name",
-            "avatar"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "email": {
-              "type": "string"
-            },
-            "first_name": {
-              "type": "string"
-            },
-            "last_name": {
-              "type": "string"
-            },
-            "avatar": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "email",
-            "first_name",
-            "last_name",
-            "avatar"
-          ]
-        }
-      ]
+        "required": [
+          "id",
+          "email",
+          "first_name",
+          "last_name",
+          "avatar"
+        ]
+      }
     },
     "support": {
       "type": "object",

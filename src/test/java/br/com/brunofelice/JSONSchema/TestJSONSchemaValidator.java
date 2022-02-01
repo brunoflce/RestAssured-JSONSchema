@@ -24,7 +24,7 @@ public class TestJSONSchemaValidator {
                get("/users?page=2").
         then().
                assertThat().
-               body(matchesJsonSchemaInClasspath("model.json")).
+               body(matchesJsonSchemaInClasspath("json-schemas/model.json")).
                statusCode(HttpStatus.SC_OK).
                body("data[4].first_name", equalTo("George")).
                body("data.first_name", hasItems("George", "Rachel"));
